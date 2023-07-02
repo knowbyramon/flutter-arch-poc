@@ -1,0 +1,17 @@
+name: api
+publish_to: none
+version: 0.0.0+1
+
+environment:
+  sdk: ^3.0.5
+
+dependencies:
+  knowby_api:
+    path: ../packages/knowby_api
+  logging: ^1.2.0
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  uuid: ^3.0.7
+
+dev_dependencies:
+  very_good_analysis: ^5.0.0+1
